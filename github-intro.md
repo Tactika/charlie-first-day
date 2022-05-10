@@ -13,7 +13,7 @@
  - GitHub
     > An online resource for storing git repositories
  - branch
-    > Branches are a separate version of the code that is named to work on, before merging it back into the main git repository
+    > Branches are a separate named versions of the code that are able to be called and worked on before merging it back into the main git branch
  - remote & local
    - Remote
         > remote is the online version of the git repository you will communicate with
