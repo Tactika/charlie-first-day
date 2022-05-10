@@ -29,3 +29,34 @@
     - pull
         > the command/action using git to pull code from the remote repository to the local machine
 
+### Git Workflow
+---
+### Informational Commands
+
+List
+```bash
+$ ls
+```
+
+Print Working Directory
+```bash
+$ pwd
+```
+Find Status of Git
+```bash
+$ git status
+```
+Add individual files to be committed.
+
+```bash
+$ git add <file-name>
+```
+Commit bundle of staged files with a message that shortly describes code changes. 
+```bash
+$ git commit -m "<meaningfull-message>"
+```
+
+Push staged commit from local computer to online repository branch. i.e. main, production, dev, etc.
+```bash
+$ git push origin <branch-name>
+```
