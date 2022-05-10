@@ -29,10 +29,10 @@
     - pull
         > the command/action using git to pull code from the remote repository to the local machine
 
-### Git Workflow
+## Git Workflow
 ---
-### Informational Commands
-
+### Informational Commands for Solo Programming
+---
 List
 ```bash
 $ ls
@@ -59,4 +59,12 @@ $ git commit -m "<meaningfull-message>"
 Push staged commit from local computer to online repository branch. i.e. main, production, dev, etc.
 ```bash
 $ git push origin <branch-name>
+```
+---
+
+### Informational Commands for Paired Programming
+---
+Create New Branch
+```bash
+$ git checkout -b <branch-name>
 ```
